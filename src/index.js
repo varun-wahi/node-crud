@@ -28,3 +28,6 @@ mongoose.connect("mongodb+srv://admin:admin@backend.8k9ek.mongodb.net/Collection
   }).catch(() => {
     console.log("Some error occured while connecting to DB.")
   })
+
+
+  module.exports = app;
